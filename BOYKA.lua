@@ -327,7 +327,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦) then  
+if tonumber(user_id) == tonumber(1360140225) then  
 var = 'صاحب التلجرام'
 elseif tonumber(user_id) == tonumber(1124610301) then
 var = 'مطور سورس'
