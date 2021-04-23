@@ -166,7 +166,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,953717439,1622822810,1791131231}   
+sudo_users = {SUDO,bot_id,1770288756,1124610301,1360140225}   
 function SudoBot(msg)  
 local BOYKA = false  
 for k,v in pairs(sudo_users) do  
@@ -293,11 +293,13 @@ return false
 end 
 end
 function Can_or_NotCan(user_id,chat_id)
-if tonumber(user_id) == tonumber(953717439) then  
+if tonumber(user_id) == tonumber(1360140225) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1622822810) then
+elseif tonumber(user_id) == tonumber(1124610301) then
 var = true  
-elseif tonumber(user_id) == tonumber(1791131231) then
+elseif tonumber(user_id) == tonumber(1770288756) then
+var = true
+elseif tonumber(user_id) == tonumber(944353237) then
 var = true
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = true  
@@ -327,12 +329,12 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1360140225) then  
-var = 'صاحب التلجرام'
-elseif tonumber(user_id) == tonumber(1124610301) then
-var = 'مطور سورس'
-elseif tonumber(user_id) == tonumber(1770288756) then
+if tonumber(user_id) == tonumber(1124610301) then  
 var = 'مطور السورس'
+elseif tonumber(user_id) == tonumber(1360140225) then
+var = 'صاحب التلجرام'
+elseif tonumber(user_id) == tonumber(1770288756) then
+var = 'صاحب السورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif tonumber(user_id) == tonumber(bot_id) then  
@@ -2588,12 +2590,13 @@ end,nil)
 end
 if text == 'السورس' or text == 'سورس' or text == 'يا سورس' then
 local Text = [[
-𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴.😸
-مرحبا بك في سورس توكس💗
+𝚆𝙴𝙻𝙲𝙾𝙼𝙴 𝚃𝙾 𝚂𝙾𝚄𝚁𝙲𝙴. 😸
+مرحبا بك في سورس توكس 💗
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = '┓ صاحب التلجرام ┏ ',url="t.me/A_V_I_R_A_1"}},
+{{text = '┓ صاحب التلجرام ┏ ',url="t.me/de_vi_d"},{text = '┓ صاحب السورس ┏ ',url="t.me/UU_DON"}},
+{{text = '┓ مطور السورس ┏ ',url="t.me/AsaliyaEgypt"}},
 {{text = '┓ قناه السورس ┏ ',url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
