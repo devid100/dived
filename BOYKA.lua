@@ -12113,7 +12113,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12184,7 +12184,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12237,7 +12237,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12299,7 +12299,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12364,7 +12364,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12450,7 +12450,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12530,7 +12530,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12576,7 +12576,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12675,7 +12675,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12735,7 +12735,7 @@ keyboard.inline_keyboard = {
 {text = '❾', callback_data="/help9"},{text = '❿', callback_data="/help10"},
 },
 {
-{text = '┓ الاوامر الرئيسية ┏', callback_data="/help"},
+{text = 'الاوامر الرئيسية ', callback_data="/help"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12815,7 +12815,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '┓ القائمه الرئيسية ┏', callback_data="/add"},
+{text = 'القائمه الرئيسية ', callback_data="/add"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12848,7 +12848,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '┓ القائمه الرئيسية ┏', callback_data="/add"},
+{text = 'القائمه الرئيسية ', callback_data="/add"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12878,7 +12878,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '┓ القائمه الرئيسية ┏', callback_data="/add"},
+{text = 'القائمه الرئيسية ', callback_data="/add"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12908,7 +12908,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '┓ القائمه الرئيسية ┏', callback_data="/add"},
+{text = 'القائمه الرئيسية ', callback_data="/add"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
@@ -12938,7 +12938,7 @@ keyboard.inline_keyboard = {
 {text = 'تنبيه المعرف', callback_data="/change-id"},{text = 'تنبيه الصور', callback_data="/change-photo"},
 },
 {
-{text = '┓ القائمه الرئيسية ┏', callback_data="/add"},
+{text = 'القائمه الرئيسية ', callback_data="/add"},
 },
 {
 {text = '𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ ', url="t.me/A_V_I_R_A_1"},
