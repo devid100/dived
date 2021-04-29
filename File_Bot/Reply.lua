@@ -89,7 +89,7 @@ return false
 end
 
 if text == 'تيست' then 
-send(msg.chat_id_,msg.id_, ' البوت شغال ') 
+send(msg.chat_id_,msg.id_, ' الـبـوت شـغـال، ') 
 return false
 end
 
