@@ -1066,12 +1066,12 @@ end
 if text == 'تحديث السورس' and SudoBot(msg) then 
 os.execute('rm -rf BOYKA.lua')
 os.execute('wget https://raw.githubusercontent.com/devid100/dived/master/BOYKA.lua')
-send(msg.chat_id_, msg.id_,'❃∫ تم تحديث السورس \n❃∫ لديك اخر اصدار ل𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦\n❃∫ الاصدار » { 1.3v}')
+send(msg.chat_id_, msg.id_,'❃∫ تم تحديث السورس \n❃∫ لديك اخر اصدار للسورس توكس⁦\n❃∫ الاصدار » { 1.3v}')
 dofile('BOYKA.lua')  
 end
 if text == 'الاصدار' and SudoBot(msg) then 
 database:del(bot_id..'Srt:Bot') 
-send(msg.chat_id_, msg.id_,'❃∫ اصدار𝐒𝐎𝐔𝐑𝐂𝐄 𝐓𝐎𝐗⁦ \n❃∫ الاصدار »{ 1.3v}')
+send(msg.chat_id_, msg.id_,'❃∫ اصدارلسورس توكس⁦ \n❃∫ الاصدار »{ 1.3v}')
 end
 if text == 'قناه تحديثات البوت' and SudoBot(msg) then 
 database:del(bot_id..'Srt:Bot') 
