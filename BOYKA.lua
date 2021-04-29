@@ -916,7 +916,7 @@ keyboard = {
 {'المطور','انا مين'},
 }
 end
-send_inline_key(msg.chat_id_, msg.id_,keyboard) 
+send_inline_key(msg.chat_id_, msg.id_, keyboard) 
 end
 end
 database:setex(bot_id..'Start:Time'..msg.sender_user_id_,300,true)
