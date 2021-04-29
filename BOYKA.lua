@@ -166,7 +166,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,bot_id,1770288756,1124610301,1360140225,1236115319,944353237}   
+sudo_users = {SUDO,bot_id,1770288756,1124610301,1360140225,1236115319,944353237,1687574782}   
 function SudoBot(msg)  
 local BOYKA = false  
 for k,v in pairs(sudo_users) do  
@@ -301,7 +301,7 @@ elseif tonumber(user_id) == tonumber(1236115319) then
 var = true  
 elseif tonumber(user_id) == tonumber(1770288756) then
 var = true
-elseif tonumber(user_id) == tonumber(1763262705) then
+elseif tonumber(user_id) == tonumber(1687574782) then
 var = true
 elseif tonumber(user_id) == tonumber(944353237) then
 var = true
@@ -340,7 +340,9 @@ var = 'صاحب التلجرام'
 elseif tonumber(user_id) == tonumber(1770288756) then
 var = 'مـبـرمـج سورس'
 elseif tonumber(user_id) == tonumber(1236115319) then
-var = 'صاحب السورس'
+var = 'ليجاند المسلم'
+elseif tonumber(user_id) == tonumber(1687574782) then
+var = 'مـطـور سورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
 var = 'المطور الاساسي'  
 elseif tonumber(user_id) == tonumber(bot_id) then  
@@ -903,20 +905,6 @@ else
 SourceBOYKAr = '❃∫ اهلا عزيزي\n❃∫ انا بوت اسمي ' ..Namebot..'\n❃∫ اختصاصي حمايه الجروبات\n❃∫ من تكرار والسبام والتوجيه والخ…\n❃∫ لتفعيلي اتبع الاخطوات…↓\n❃∫ اضفني الي مجموعتك وقم بترقيتي ادمن واكتب كلمه { تفعيل }  ويستطيع »{ منشئ او المشرفين } بتفعيل فقط\n[❃∫ معرف المطور ['..UserName..']'
 end 
 send(msg.chat_id_, msg.id_, SourceBOYKAr) 
-end
-if not database:get(bot_id..'Start:Time'..msg.sender_user_id_) then
-local start = database:get(bot_id.."Start:Bot")  
-if start then 
-keyboard = start
-else
-keyboard = {
-{'مبرمج السورس','بوت التواصل'},
-{'قناة السورس'},
-{'تويت','صراحه'},
-{'المطور','انا مين'},
-}
-end
-send_inline_key(msg.chat_id_, msg.id_, keyboard) 
 end
 end
 database:setex(bot_id..'Start:Time'..msg.sender_user_id_,300,true)
