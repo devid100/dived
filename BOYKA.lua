@@ -908,24 +908,6 @@ end
 database:setex(bot_id..'Start:Time'..msg.sender_user_id_,300,true)
 return false
 end
-if not database:get(bot_id..'Start:Time'..msg.sender_user_id_) then
-local start = database:get(bot_id.."Start:Bot")  
-if start then 
-keyboard = start
-else
-keyboard = {
-{'مبرمج السورس','بوت التواصل'},
-{'قناة السورس'},
-{'تويت','صراحه'},
-{'المطور','انا مين'},
-}
-end
-send_inline_key(msg.chat_id_, msg.id_, keyboard) 
-end
-end
-database:setex(bot_id..'Start:Time'..msg.sender_user_id_,300,true)
-return false
-end
 if not SudoBot(msg) and not database:sismember(bot_id..'Ban:User_Bot',msg.sender_user_id_) and not database:get(bot_id..'Tuasl:Bots') then
 send(msg.sender_user_id_, msg.id_,'❃∫ تم ارسال رسالتك\n❃∫ سيتم رد في اقرب وقت')
 tdcli_function ({ID = "ForwardMessages", chat_id_ = SUDO,    from_chat_id_ = msg.sender_user_id_,    message_ids_ = {[0] = msg.id_},    disable_notification_ = 1,    from_background_ = 1 },function(arg,data) 
