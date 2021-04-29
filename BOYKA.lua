@@ -904,6 +904,20 @@ SourceBOYKAr = '❃∫ اهلا عزيزي\n❃∫ انا بوت اسمي ' ..Na
 end 
 send(msg.chat_id_, msg.id_, SourceBOYKAr) 
 end
+if not database:get(bot_id..'Start:Time'..msg.sender_user_id_) then
+local start = database:get(bot_id.."Start:Bot")  
+if start then 
+keyboard = start
+else
+keyboard = {
+{'مبرمج السورس','بوت التواصل'},
+{'قناة السورس'},
+{'تويت','صراحه'},
+{'المطور','انا مين'},
+}
+end
+send_inline_key(msg.chat_id_, msg.id_,keyboard) 
+end
 end
 database:setex(bot_id..'Start:Time'..msg.sender_user_id_,300,true)
 return false
