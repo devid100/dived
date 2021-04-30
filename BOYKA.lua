@@ -2603,23 +2603,32 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' كينج التلجرام  ',url="t.me/UU_DON"}},
+{{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' صاحب السورس  ',url="t.me/UU_DON"}},
 {{text = ' مطور السورس  ',url="t.me/Am_ory_2"}},
 {{text = ' قناه السورس  ',url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-
-
-if text == «₪«العاب توكس«₪« or text == «₪«العاب خارقه«₪« or text == «₪«العاب متطوره«₪« then  
+if text == 'صاحب التلجرام' or text == 'ديفيد' or text == 'مبرمج السورس' then
+local Text = [[
+𖤐𓆩𝐃𝐄𝐕𝐈𝐃⁦𓆪𖤐
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = {
+{{text = 'صاحب التلجرام', url="t.me/de_vi_d"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+end
+if text == «₪«العاب باور«₪« or text == «₪«العاب خارقه«₪« or text == «₪«العاب متطوره«₪« then  
 local Text = [[  
 اهلا في قائمه الالعاب المتطوره سورس باور 🎮
 تفضل اختر لعبه من القائمه 
 ]]  
 keyboard = {}   
 keyboard.inline_keyboard = {  
-{{text = «₪«صاحب التلجرام«₪«, url="t.me/de_vi_d"}},
+{{text = «₪«مطورين السورس«₪«, url="t.me/US_PO"}},
 {{text = «₪«فلابي بيرد«₪«, url="https://t.me/awesomebot?game=FlappyBird"},{text = «₪«تحداني فالرياضيات«₪«,url="https://t.me/gamebot?game=MathBattle"}},   
 {{text = «₪«لعبه دراجات«₪«, url="https://t.me/gamee?game=MotoFX"},{text = «₪«سباق سيارات«₪«, url="https://t.me/gamee?game=F1Racer"}}, 
 {{text = «₪«تشابه«₪«, url="https://t.me/gamee?game=DiamondRows"},{text = «₪«كره القدم«₪«, url="https://t.me/gamee?game=FootballStar"}}, 
@@ -2632,11 +2641,9 @@ keyboard.inline_keyboard = {
 {{text = «₪«Astrocat«₪«, url="https://t.me/gamee?game=Astrocat"},{text = «₪«Skipper«₪«, url="https://t.me/gamee?game=Skipper"}},  
 {{text = «₪«WorldCup«₪«, url="https://t.me/gamee?game=PocketWorldCup"},{text = «₪«GeometryRun«₪«, url="https://t.me/gamee?game=GeometryRun"}},  
 {{text = «₪«Ten2One«₪«, url="https://t.me/gamee?game=Ten2One"},{text = «₪«NeonBlast2«₪«, url="https://t.me/gamee?game=NeonBlast2"}},  
-{{text = «₪«صاحب التلجرام«₪«, url="t.me/de_vi_d"}},
-}
-local msg_id = msg.id_/2097152/0.5
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
-end
+{{text = «₪«مطورين السورس«₪«, url="t.me/US_PO"}},
+}  
+
 --------------------------------------------------------------------------------------------------------------
 if Chat_Type == 'GroupBot' and ChekAdd(msg.chat_id_) == true then
 if text == 'رفع نسخه الاحتياطيه' and SudoBot(msg) then   
