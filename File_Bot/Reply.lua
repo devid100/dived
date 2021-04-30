@@ -211,7 +211,7 @@ end
 -- TOP
 if text == "عسليه" or text == "دونجل" or text == "عسليه" or text == "دونجل" then
 
-send(msg.chat_id_,msg.id_, '[ مطور السورس](t.me/A_V_I_R_A_1)') 
+send(msg.chat_id_,msg.id_, '[ مطور السورس](t.me/AsaliyaEgypt)') 
 return false
 end
 
