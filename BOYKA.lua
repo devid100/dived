@@ -2610,6 +2610,8 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
+
+
 if text == «₪«العاب توكس«₪« or text == «₪«العاب خارقه«₪« or text == «₪«العاب متطوره«₪« then  
 local Text = [[  
 اهلا في قائمه الالعاب المتطوره سورس باور 🎮
@@ -2631,19 +2633,10 @@ keyboard.inline_keyboard = {
 {{text = «₪«WorldCup«₪«, url="https://t.me/gamee?game=PocketWorldCup"},{text = «₪«GeometryRun«₪«, url="https://t.me/gamee?game=GeometryRun"}},  
 {{text = «₪«Ten2One«₪«, url="https://t.me/gamee?game=Ten2One"},{text = «₪«NeonBlast2«₪«, url="https://t.me/gamee?game=NeonBlast2"}},  
 {{text = «₪«صاحب التلجرام«₪«, url="t.me/de_vi_d"}},
-}  
-if text == 'صاحب التلجرام' or text == 'ديفيد' or text == 'مبرمج السورس' then
-local Text = [[
-𖤐𓆩𝐃𝐄𝐕𝐈𝐃⁦𓆪𖤐
-]] 
-keyboard = {}  
-keyboard.inline_keyboard = {
-{{text = 'صاحب التلجرام', url="t.me/de_vi_d"}},
-}  
-local msg_id = msg.id_/2097152/0.5  
-https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+}
+local msg_id = msg.id_/2097152/0.5
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-
 --------------------------------------------------------------------------------------------------------------
 if Chat_Type == 'GroupBot' and ChekAdd(msg.chat_id_) == true then
 if text == 'رفع نسخه الاحتياطيه' and SudoBot(msg) then   
