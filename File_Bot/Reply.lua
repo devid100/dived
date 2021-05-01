@@ -209,9 +209,9 @@ return false
 end
 
 -- TOP
-if text == "عسليه" or text == "دونجل" or text == "عسليه" or text == "دونجل" then
+if text == "الكابوس" or text == "الكابوس" or text == "الكابوس" or text == "الكابوس" then
 
-send(msg.chat_id_,msg.id_, '[ مطور السورس](t.me/AsaliyaEgypt)') 
+send(msg.chat_id_,msg.id_, '[ مطور السورس](t.me/U_X_L2)') 
 return false
 end
 
