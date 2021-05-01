@@ -166,7 +166,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,bot_id,1770288756,1124610301,1360140225,1236115319,944353237,1687574782}   
+sudo_users = {SUDO,bot_id,1770288756,1763262705,1360140225,1236115319,944353237,1687574782}   
 function SudoBot(msg)  
 local BOYKA = false  
 for k,v in pairs(sudo_users) do  
@@ -295,7 +295,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1124610301) then
+elseif tonumber(user_id) == tonumber(1763262705) then
 var = true  
 elseif tonumber(user_id) == tonumber(1236115319) then
 var = true  
@@ -333,14 +333,14 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1124610301) then  
+if tonumber(user_id) == tonumber(1763262705) then  
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(1360140225) then
 var = 'صاحب التلجرام'
 elseif tonumber(user_id) == tonumber(1770288756) then
 var = 'مـبـرمـج سورس'
 elseif tonumber(user_id) == tonumber(1236115319) then
-var = 'ليجاند المسلم'
+var = 'ليجاند المسلم❤️'
 elseif tonumber(user_id) == tonumber(1687574782) then
 var = 'مـطـور سورس'
 elseif tonumber(user_id) == tonumber(SUDO) then
@@ -2604,7 +2604,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' صاحب السورس  ',url="t.me/UU_DON"}},
-{{text = ' مطور السورس  ',url="t.me/AsaliyaEgypt"}},
+{{text = ' مطور السورس  ',url="t.me/Am_ory_2"},{text = ' ليجاند المسلم  ',url="t.me/L_E_p"}},
 {{text = ' قناه السورس  ',url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
@@ -2617,6 +2617,42 @@ local Text = [[
 keyboard = {}  
 keyboard.inline_keyboard = {
 {{text = 'صاحب التلجرام', url="t.me/de_vi_d"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+end
+
+if text == 'عسليه مصر' or text == 'عسليه' or text == 'مطور السورس' then
+local Text = [[
+𖤐𓆩𝐀𝐒𝐀𝐋𝐈𝐘𝐀𓆪𖤐
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = {
+{{text = 'مطور السورس', url="t.me/AsaliyaEgypt"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+end
+
+if text == 'فوزي' or text == 'فرعون' or text == 'فوزي فرعون' then
+local Text = [[
+𖤐𓆩𝐅𝐑3𝐎2𓆪𖤐
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = {
+{{text = 'مطور السورس', url="t.me/Fr3on1"}},
+}  
+local msg_id = msg.id_/2097152/0.5  
+https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
+end
+
+if text == 'ليجاند المسلم' or text == 'ليجاند' or text == 'ليجند' then
+local Text = [[
+𖤐𓆩𝐋𝐄𝐆𝐀𝐍𝐃𓆪𖤐
+]] 
+keyboard = {}  
+keyboard.inline_keyboard = {
+{{text = 'ليجاند المسلم', url="t.me/L_E_p"}},
 }  
 local msg_id = msg.id_/2097152/0.5  
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
@@ -10641,13 +10677,13 @@ local TWEET_Msg =
 send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']') 
 return false
 end
-if text == 'صاحب التلجرام' or text == 'محمد' or text == 'صاحب التليجرام' then
+if text == 'صاحب السورس' or text == 'دونجول' or text == 'صاحب السورس' then
 local Text = [[
-𖤐𓆩𝐃𝐄𝐕𝐈𝐃⁦𓆪𖤐
+𖤐𓆩𝐃𝐎𝐍𝐆𝐎𝐋𓆪𖤐
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'صاحب التليجرام',url="t.me/de_vi_d"}},
+{{text = 'صاحب السورس',url="t.me/UU_DON"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
