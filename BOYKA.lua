@@ -166,7 +166,7 @@ print(t)
 function vardump(value)  
 print(serpent.block(value, {comment=false}))   
 end 
-sudo_users = {SUDO,bot_id,1770288756,1763262705,1360140225,1236115319,944353237,1687574782}   
+sudo_users = {SUDO,bot_id,1770288756,1124610301,1360140225,1236115319,944353237,1687574782}   
 function SudoBot(msg)  
 local BOYKA = false  
 for k,v in pairs(sudo_users) do  
@@ -295,7 +295,7 @@ end
 function Can_or_NotCan(user_id,chat_id)
 if tonumber(user_id) == tonumber(1360140225) then  
 var = true  
-elseif tonumber(user_id) == tonumber(1763262705) then
+elseif tonumber(user_id) == tonumber(1124610301) then
 var = true  
 elseif tonumber(user_id) == tonumber(1236115319) then
 var = true  
@@ -333,7 +333,7 @@ end
 return var
 end 
 function Rutba(user_id,chat_id)
-if tonumber(user_id) == tonumber(1763262705) then  
+if tonumber(user_id) == tonumber(1124610301) then  
 var = 'مطور السورس'
 elseif tonumber(user_id) == tonumber(1360140225) then
 var = 'صاحب التلجرام'
@@ -2604,7 +2604,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' صاحب السورس  ',url="t.me/UU_DON"}},
-{{text = ' مطور السورس  ',url="t.me/Am_ory_2"},{text = ' ليجاند المسلم  ',url="t.me/L_E_p"}},
+{{text = ' مطور السورس  ',url="t.me/AsaliyaEgypt"},{text = ' ليجاند المسلم  ',url="t.me/L_E_p"}},
 {{text = ' قناه السورس  ',url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
