@@ -2604,7 +2604,7 @@ local Text = [[
 keyboard = {} 
 keyboard.inline_keyboard = {
 {{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' صاحب السورس  ',url="t.me/UU_DON"}},
-{{text = ' مطور السورس  ',url="t.me/AsaliyaEgypt"},{text = ' ليجاند المسلم  ',url="t.me/L_E_p"}},
+{{text = ' مطور السورس  ',url="t.me/AsaliyaEgypt"}},
 {{text = ' قناه السورس  ',url="t.me/A_V_I_R_A_1"}},
 }
 local msg_id = msg.id_/2097152/0.5
