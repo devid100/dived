@@ -2610,22 +2610,6 @@ keyboard.inline_keyboard = {
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
 end
-if text ==  رابط حذف  or text ==  رابط الحذف  or text ==  بوت حذف  or text ==  بوت الحذف  then 
-local Text = [[ 
-رابط حذف جميع موقع التواصل
-احذف بقي عشان ونبي زهقت منك 
-]] 
-keyboard = {} 
-keyboard.inline_keyboard = { 
-{{text =  Telegram ,url="https://my.telegram.org/auth?to=delete"}, 
-{text =  BOT Telegram , url="t.me/LC6BOT"}}, 
-{{text =  instagram , url="https://www.instagram.com/accounts/login/?next=/accounts/remove/request/permanent/"}}, 
-{{text =  Facebook , url="https://www.facebook.com/help/deleteaccount"}}, 
-{{text =  Snspchat , url="https://accounts.snapchat.com/accounts/login?continue=https%3A%2F%2Faccounts.snapchat.com%2Faccounts%2Fdeleteaccount"}}, 
-}
-local msg_id = msg.id_/2097152/0.5  
-https.request("https://api.telegram.org/bot"..token.. /sendMessage?chat_id=  .. msg.chat_id_ ..  &text=  .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))  
-end
 if text == 'صاحب التلجرام' or text == 'ديفيد' or text == 'مبرمج السورس' then
 local Text = [[
 𖤐𓆩𝐃𝐄𝐕𝐈𝐃⁦𓆪𖤐
