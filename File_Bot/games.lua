@@ -34,10 +34,7 @@ Text_Games = [[
 [➫ ┇𝐃𝐄𝐕 𝐃𝐄𝐕𝐈𝐃✪](t.me/de_vi_d)
  ≪━━━━━━𝐓𝐎𝐗━━━━━━≫
 ]]
-keyboard = {} 
-keyboard.inline_keyboard = {
-{{text =  𝒔𝒐𝒖𝒓𝒄𝒆 𝒔𝒐𝒐𝒐𝒏 ,url="t.me/s_o_op"}}, 
-}
+send(msg.chat_id_, msg.id_,Text_Games) 
 end
 
 if text == 'السمايلات' or text == 'السمايل' then
