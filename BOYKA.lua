@@ -8918,7 +8918,7 @@ else
 local linkgpp = json:decode(https.request('https://api.telegram.org/bot'..token..'/exportChatInviteLink?chat_id='..msg.chat_id_))
 if linkgpp.ok == true then 
 database:set(bot_id.."Private:Group:Link"..msg.chat_id_,linkgpp.result)
-linkgp = '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑  ??\n≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..linkgpp.result..']'
+linkgp = '𝒍𝒊𝒏𝒌 𝒈𝒓𝒐𝒖𝒑\n≪━━━━━━𝐓𝐎𝐗━━━━━━≫\n ['..linkgpp.result..']'
 else
 linkgp = '❃∫ لا يوجد رابط ارسل ضع رابط'
 end  
