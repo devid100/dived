@@ -2603,7 +2603,7 @@ local Text = [[
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' صاحب السورس  ',url="t.me/UU_DON"}},
+{{text = ' صاحب التلجرام  ',url="t.me/de_vi_d"},{text = ' كينج التلجرام  ',url="t.me/UU_DON"}},
 {{text = ' مطور السورس  ',url="t.me/AsaliyaEgypt"}},
 {{text = ' قناه السورس  ',url="t.me/A_V_I_R_A_1"}},
 }
@@ -10677,13 +10677,13 @@ local TWEET_Msg =
 send(msg.chat_id_, msg.id_,'['..TWEET_Msg[math.random(#TWEET_Msg)]..']') 
 return false
 end
-if text == 'صاحب السورس' or text == 'دونجول' or text == 'صاحب السورس' then
+if text == 'كينج التلجرام' or text == 'دونجول' or text == 'كينج التلجرام' then
 local Text = [[
 𖤐𓆩𝐃𝐎𝐍𝐆𝐎𝐋𓆪𖤐
 ]]
 keyboard = {} 
 keyboard.inline_keyboard = {
-{{text = 'صاحب السورس',url="t.me/UU_DON"}},
+{{text = 'كينج التلجرام',url="t.me/UU_DON"}},
 }
 local msg_id = msg.id_/2097152/0.5
 https.request("https://api.telegram.org/bot"..token..'/sendMessage?chat_id=' .. msg.chat_id_ .. '&text=' .. URL.escape(Text).."&reply_to_message_id="..msg_id.."&parse_mode=markdown&disable_web_page_preview=true&reply_markup="..JSON.encode(keyboard))
